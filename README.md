@@ -17,7 +17,7 @@ https://drive.google.com/drive/folders/1eclapUjg-IKQ1cfxnc6__dgmzlrwLsPy?usp=sha
 23/02/02 - 23/02/23 (3주)
 
 ## 팀원
-기획 1명 / 아트 3명 / 프로그래머 4명
+기획 1명 / 아트 3명 / 프로그래머 4명   
 [고태욱](https://github.com/TaewookWorks)
 [나동훈](https://github.com/la4025)
 [신윤제](https://github.com/dispact-97)
