@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="D2DEngine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{48f52547-cc14-4e7d-b8e0-b1d3339c5ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{43582039-0463-4a9b-895c-58007a06e050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GIFStruct">
+      <UniqueIdentifier>{dd1f25c5-09b1-4a03-9776-d2ebe404771d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D2DEngine.cpp">
+      <Filter>D2DEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DREngineDefine.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DSprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D2DEngine.h">
+      <Filter>D2DEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Syn.h">
+      <Filter>D2DEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IDREngine.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="DREngineDefine.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DSprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GIFStruct.h">
+      <Filter>GIFStruct</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

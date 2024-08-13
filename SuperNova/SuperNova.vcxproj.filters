@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>07_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>01_GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>00_EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Scene.cpp">
+      <Filter>05_Scene\01_MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>06_Object\01_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>04_Manager\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseInputManager.cpp">
+      <Filter>04_Manager\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>04_Manager\01_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>04_Manager\00_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>04_Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>04_Manager\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>06_Object\00_GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteButton.cpp">
+      <Filter>06_Object\03_UI\01_InGame\Note\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteMain.cpp">
+      <Filter>06_Object\03_UI\01_InGame\Note\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="StarPiece1.cpp">
+      <Filter>06_Object\03_UI\01_InGame\Stars\Piece_1</Filter>
+    </ClCompile>
+    <ClCompile Include="StarPiece2.cpp">
+      <Filter>06_Object\03_UI\01_InGame\Stars\Piece_2</Filter>
+    </ClCompile>
+    <ClCompile Include="StarPiece3.cpp">
+      <Filter>06_Object\03_UI\01_InGame\Stars\Piece_3</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>05_Scene\00_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>05_Scene\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>05_Scene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>05_Scene\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="Option_Scene.cpp">
+      <Filter>05_Scene\01_MainScene\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugScene.cpp">
+      <Filter>05_Scene\TestScene\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseScene.cpp">
+      <Filter>05_Scene\TestScene\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="TaewookScene.cpp">
+      <Filter>05_Scene\TestScene\Taewook</Filter>
+    </ClCompile>
+    <ClCompile Include="BoosterArrow.cpp">
+      <Filter>06_Object\03_UI\01_InGame\Boost\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="BoosterGage.cpp">
+      <Filter>06_Object\03_UI\01_InGame\Boost\Gage</Filter>
+    </ClCompile>
+    <ClCompile Include="EventObject.cpp">
+      <Filter>06_Object\07_EventObject</Filter>
+    </ClCompile>
+    <ClCompile Include="WhaleStatue.cpp">
+      <Filter>06_Object\07_EventObject\Whale</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSetting.cpp">
+      <Filter>02_GameSetting\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>02_GameSetting\System\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="TWKObject1.cpp">
+      <Filter>06_Object\TestObject\Taewook</Filter>
+    </ClCompile>
+    <ClCompile Include="TWKObject2.cpp">
+      <Filter>06_Object\TestObject\Taewook</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>02_GameSetting\System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>04_Manager\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection.cpp">
+      <Filter>02_GameSetting\System\CollisionDection</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Etc\Collider\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Etc\Collider\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Etc\Collider\00_Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>Etc\Math\Vec2</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Etc\Math\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2D.cpp">
+      <Filter>Etc\Math\Matrix2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Force.cpp">
+      <Filter>Etc\Physics\Force</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>Etc\Physics\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Etc\Math\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="CollideInfoMap.cpp">
+      <Filter>Etc\CollidenInfoMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>06_Object\02_Background</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI.cpp">
+      <Filter>06_Object\03_UI\00_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>06_Object\04_Planet</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>06_Object\05_Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>06_Object\06_Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>06_Object\03_UI\01_InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TWKObject3.cpp">
+      <Filter>06_Object\TestObject\Taewook</Filter>
+    </ClCompile>
+    <ClCompile Include="TWKObject4.cpp">
+      <Filter>06_Object\TestObject\Taewook</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>04_Manager\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionUI.cpp">
+      <Filter>06_Object\03_UI\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>04_Manager\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakePlanetScene.cpp">
+      <Filter>05_Scene\SnakePlanet</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>04_Manager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>06_Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Etc\Math\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>04_Manager\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Opening_Scene.cpp">
+      <Filter>05_Scene\02_CutScene\Opening</Filter>
+    </ClCompile>
+    <ClCompile Include="Opening_Object.cpp">
+      <Filter>06_Object\CutSceneObject\Opening</Filter>
+    </ClCompile>
+    <ClCompile Include="Bad_Scene.cpp">
+      <Filter>05_Scene\02_CutScene\Bad</Filter>
+    </ClCompile>
+    <ClCompile Include="True_Scene.cpp">
+      <Filter>05_Scene\02_CutScene\True</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal_Scene.cpp">
+      <Filter>05_Scene\02_CutScene\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal_Ending.cpp">
+      <Filter>06_Object\CutSceneObject\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="True_Ending.cpp">
+      <Filter>06_Object\CutSceneObject\True</Filter>
+    </ClCompile>
+    <ClCompile Include="Bad_Ending.cpp">
+      <Filter>06_Object\CutSceneObject\Bad</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryPlanetScene.cpp">
+      <Filter>05_Scene\StoryPlanet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EnumDefine.h">
+      <Filter>03_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>07_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>01_GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Scene.h">
+      <Filter>05_Scene\01_MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyDefine.h">
+      <Filter>03_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="IUpdatable.h">
+      <Filter>03_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="StructDefine.h">
+      <Filter>03_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>06_Object\01_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>04_Manager\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseInputManager.h">
+      <Filter>04_Manager\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>04_Manager\01_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>04_Manager\00_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>04_Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>04_Manager\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>06_Object\00_GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteButton.h">
+      <Filter>06_Object\03_UI\01_InGame\Note\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteMain.h">
+      <Filter>06_Object\03_UI\01_InGame\Note\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="StarPiece1.h">
+      <Filter>06_Object\03_UI\01_InGame\Stars\Piece_1</Filter>
+    </ClInclude>
+    <ClInclude Include="StarPiece2.h">
+      <Filter>06_Object\03_UI\01_InGame\Stars\Piece_2</Filter>
+    </ClInclude>
+    <ClInclude Include="StarPiece3.h">
+      <Filter>06_Object\03_UI\01_InGame\Stars\Piece_3</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>05_Scene\00_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>05_Scene\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>05_Scene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>05_Scene\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugScene.h">
+      <Filter>05_Scene\TestScene\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseScene.h">
+      <Filter>05_Scene\TestScene\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="TaewookScene.h">
+      <Filter>05_Scene\TestScene\Taewook</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectHeaderIncludes.h">
+      <Filter>03_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneHeaderIncludes.h">
+      <Filter>03_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="BoosterArrow.h">
+      <Filter>06_Object\03_UI\01_InGame\Boost\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="BoosterGage.h">
+      <Filter>06_Object\03_UI\01_InGame\Boost\Gage</Filter>
+    </ClInclude>
+    <ClInclude Include="EventObject.h">
+      <Filter>06_Object\07_EventObject</Filter>
+    </ClInclude>
+    <ClInclude Include="WhaleStatue.h">
+      <Filter>06_Object\07_EventObject\Whale</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSetting.h">
+      <Filter>02_GameSetting\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>02_GameSetting\System\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="TWKObject1.h">
+      <Filter>06_Object\TestObject\Taewook</Filter>
+    </ClInclude>
+    <ClInclude Include="TWKObject2.h">
+      <Filter>06_Object\TestObject\Taewook</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>02_GameSetting\System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>04_Manager\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>02_GameSetting\System\CollisionDection</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Etc\Collider\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Etc\Collider\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Etc\Collider\00_Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Etc\Math\Vec2</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Etc\Math\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2D.h">
+      <Filter>Etc\Math\Matrix2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Force.h">
+      <Filter>Etc\Physics\Force</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>Etc\Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Etc\Math\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedQueue.h">
+      <Filter>03_Define</Filter>
+    </ClInclude>
+    <ClInclude Include="CollideInfoMap.h">
+      <Filter>Etc\CollidenInfoMap</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>02_GameSetting\System\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>06_Object\02_Background</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUI.h">
+      <Filter>06_Object\03_UI\00_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>06_Object\04_Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>06_Object\05_Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Item.h">
+      <Filter>06_Object\06_Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>06_Object\03_UI\01_InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TWKObject3.h">
+      <Filter>06_Object\TestObject\Taewook</Filter>
+    </ClInclude>
+    <ClInclude Include="TWKObject4.h">
+      <Filter>06_Object\TestObject\Taewook</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>04_Manager\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionUI.h">
+      <Filter>06_Object\03_UI\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>04_Manager\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakePlanetScene.h">
+      <Filter>05_Scene\SnakePlanet</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>04_Manager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>06_Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Etc\Math\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>04_Manager\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Option_Scene.h">
+      <Filter>05_Scene\01_MainScene\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="Opening_Scene.h">
+      <Filter>05_Scene\02_CutScene\Opening</Filter>
+    </ClInclude>
+    <ClInclude Include="Opening_Object.h">
+      <Filter>06_Object\CutSceneObject\Opening</Filter>
+    </ClInclude>
+    <ClInclude Include="Bad_Scene.h">
+      <Filter>05_Scene\02_CutScene\Bad</Filter>
+    </ClInclude>
+    <ClInclude Include="True_Scene.h">
+      <Filter>05_Scene\02_CutScene\True</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal_Scene.h">
+      <Filter>05_Scene\02_CutScene\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal_Ending.h">
+      <Filter>06_Object\CutSceneObject\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="True_Ending.h">
+      <Filter>06_Object\CutSceneObject\True</Filter>
+    </ClInclude>
+    <ClInclude Include="Bad_Ending.h">
+      <Filter>06_Object\CutSceneObject\Bad</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryPlanetScene.h">
+      <Filter>05_Scene\StoryPlanet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00_EntryPoint">
+      <UniqueIdentifier>{f92760fb-88c6-455a-83e4-6ea59344815e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc">
+      <UniqueIdentifier>{f328cb82-8729-4867-aaad-adc3978d8af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_GameProcess">
+      <UniqueIdentifier>{6dc4b6fd-303a-4e21-b4fd-11ac4099875a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_GameSetting">
+      <UniqueIdentifier>{827b6860-f53a-4b63-b6c4-3fe9c35d5eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Define">
+      <UniqueIdentifier>{38982d7c-ae9f-4798-a7cf-5331ffebe138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manager">
+      <UniqueIdentifier>{5e8dcdf3-1ee0-4e5c-ae5d-817b4d66884c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene">
+      <UniqueIdentifier>{4c743c91-6d09-4a22-bad2-b6bacb103fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\00_Scene">
+      <UniqueIdentifier>{9ece8fab-56f0-4ff7-acef-4262c0863474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\01_MainScene">
+      <UniqueIdentifier>{1cee116c-c59d-45e4-b90b-94ddc1788f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\01_MainScene\Option">
+      <UniqueIdentifier>{42cc062c-da62-4aab-b6af-8b254c85c794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\Stage1">
+      <UniqueIdentifier>{8d260192-1eb1-4f91-91f3-f70364fcaf37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\Stage2">
+      <UniqueIdentifier>{14922572-7f10-423d-ab17-5629087d37b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\Stage3">
+      <UniqueIdentifier>{594c21bd-3f21-4397-a906-9fbd55dc2504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\TestScene">
+      <UniqueIdentifier>{e41d499e-ec91-41e9-bb54-2f00b468dd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\TestScene\Debug">
+      <UniqueIdentifier>{c3d169d7-56a9-4fa0-82c1-352fd7842522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\TestScene\Mouse">
+      <UniqueIdentifier>{cdc96e51-b52e-4d67-86da-484c8367bdd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\TestScene\Taewook">
+      <UniqueIdentifier>{696aa005-f9ac-4ab0-933d-9ee346bb3102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object">
+      <UniqueIdentifier>{02d64dd5-3912-4bce-9eca-f3b9f7ba117e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\01_Player">
+      <UniqueIdentifier>{a4e49547-4338-4fcf-844d-673fa8738d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\02_Background">
+      <UniqueIdentifier>{6ef92fd1-6e4f-4c91-abda-14acb23bcc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\00_GameObject">
+      <UniqueIdentifier>{a0b283f8-4884-43a6-957e-7f80af99a166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI">
+      <UniqueIdentifier>{d0114c11-54ad-410d-8bc7-f86f0f71c39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\00_Main">
+      <UniqueIdentifier>{68c79f38-eaa4-4a13-bc8f-f13b65630c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\01_InGame">
+      <UniqueIdentifier>{4d00c925-29b0-451f-bdda-96f5f63b40f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\01_InGame\Note">
+      <UniqueIdentifier>{9d09c1c1-07b6-47bb-9170-20c4c44b6359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\01_InGame\Note\Button">
+      <UniqueIdentifier>{2e645cf8-fe8e-418b-84e4-59c5ef6ead88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\01_InGame\Note\Main">
+      <UniqueIdentifier>{7960610e-78d1-4687-a42c-bb5ed5812f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\01_InGame\Stars">
+      <UniqueIdentifier>{698ebcd8-38d3-44a1-a5bd-d84af490e48f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\01_InGame\Stars\Piece_1">
+      <UniqueIdentifier>{096cf232-8d66-4551-8401-5bab6b6d7e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\01_InGame\Stars\Piece_2">
+      <UniqueIdentifier>{88f7b461-207c-4422-8c6d-fd726cdba131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\01_InGame\Stars\Piece_3">
+      <UniqueIdentifier>{195f0b0b-f4bd-40a7-9daa-53dc81bbf5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_Camera">
+      <UniqueIdentifier>{df207dc9-fc4c-4ef4-add2-573f32c2b919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\01_InGame\Boost">
+      <UniqueIdentifier>{6ce89213-fc59-4ae8-9256-fcf46baf594b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\01_InGame\Boost\Arrow">
+      <UniqueIdentifier>{74d4ce0c-972b-457a-8988-84738801fc41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\01_InGame\Boost\Gage">
+      <UniqueIdentifier>{ca55b336-babe-411e-925a-3979eb103672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_GameSetting\Setting">
+      <UniqueIdentifier>{2b480ce9-ccec-4c3e-94f3-f424de292313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_GameSetting\System">
+      <UniqueIdentifier>{ec6c0c10-d29c-4ce6-8797-e181769a1d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_GameSetting\System\Render">
+      <UniqueIdentifier>{2240affc-ad29-4136-b6c3-76b90b5cb3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\TestObject">
+      <UniqueIdentifier>{9e57dcb2-0bdb-4193-bdd3-266c75674c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\TestObject\Taewook">
+      <UniqueIdentifier>{76892434-5c16-4284-9151-cf893d4c7dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_GameSetting\System\Debug">
+      <UniqueIdentifier>{985f069e-326c-4f12-8d6a-b788f066e0d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manager\00_Scene">
+      <UniqueIdentifier>{12be3c77-8161-495d-87f6-102fac052966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manager\01_Object">
+      <UniqueIdentifier>{0163420f-841a-4672-900e-a2e8b33d61b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manager\Input">
+      <UniqueIdentifier>{879ef1be-bcdc-440e-bc07-f88eb7a521b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manager\Mouse">
+      <UniqueIdentifier>{8c493b82-f80b-4b5a-951d-c523a7bbe6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manager\Collision">
+      <UniqueIdentifier>{07edbaba-0f17-4828-ab72-4a38861e3f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manager\Sound">
+      <UniqueIdentifier>{abf8b375-a70f-4fe2-a98f-a4070670e795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manager\Time">
+      <UniqueIdentifier>{826887bc-2e4d-44e0-b368-2c04a8f41745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Collider">
+      <UniqueIdentifier>{e7fbee01-2d93-427d-955c-f2d3bc62de91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_GameSetting\System\CollisionDection">
+      <UniqueIdentifier>{d218d297-15a5-425c-8a34-db18d93d5f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Collider\Box">
+      <UniqueIdentifier>{bd72a8c0-a975-4640-8086-d2aaa534385f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Collider\Circle">
+      <UniqueIdentifier>{fb5f6936-a243-48b6-a8a8-30bf05a12847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Collider\00_Collider">
+      <UniqueIdentifier>{f30d2f5b-4df1-4d38-bcd5-8650cb754213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Math">
+      <UniqueIdentifier>{b441cb6b-e7e7-46db-a899-50dcde8ca7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Math\Vec2">
+      <UniqueIdentifier>{b326874f-2f9c-4c7e-83c5-29e545194f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Math\Math">
+      <UniqueIdentifier>{44a792ac-1b39-4072-8fb2-5da96868230c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Math\Matrix2D">
+      <UniqueIdentifier>{b37c27de-706c-4a6d-8ffb-d3b0c8ee98a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Physics">
+      <UniqueIdentifier>{02b69e4e-e53b-4753-9c69-5f71036a4c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Physics\Force">
+      <UniqueIdentifier>{b7b3c6dc-81d8-4aab-8728-a08439b9fcca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Physics\Body">
+      <UniqueIdentifier>{f0d67898-e06f-442b-93fc-f56bb773da61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Math\Transform">
+      <UniqueIdentifier>{538526c7-dcb6-4074-a5c6-44b2d1944ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\CollidenInfoMap">
+      <UniqueIdentifier>{5a76a94f-0dc8-4104-a067-22c30894efde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_GameSetting\System\ObjectPool">
+      <UniqueIdentifier>{28bf09c5-e5c0-449e-b653-3c6df1e900a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\04_Planet">
+      <UniqueIdentifier>{7f456a92-c6ec-498a-9a2b-a143936082d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\05_Obstacle">
+      <UniqueIdentifier>{843a58f4-097d-4c56-a655-ba95b09443f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\06_Item">
+      <UniqueIdentifier>{a57133cd-be6a-48ba-8382-2bbe6a24fb89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\07_EventObject">
+      <UniqueIdentifier>{47398b8c-66a2-426d-bf88-22b534673dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\07_EventObject\Whale">
+      <UniqueIdentifier>{f47716c8-cac0-41c6-9de4-4ceb1a753024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manager\Physics">
+      <UniqueIdentifier>{2e518dc8-fa8a-40fe-92a8-26515d15cd8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\03_UI\Option">
+      <UniqueIdentifier>{a66d88ed-f73d-4a00-b2d9-c14dc0e16f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manager\Timer">
+      <UniqueIdentifier>{b5541788-7f3a-4c2f-ac0c-b236624c24a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manager\Bullet">
+      <UniqueIdentifier>{496db303-9828-4431-8a57-bc1d99ab7dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\Bullet">
+      <UniqueIdentifier>{522fa82f-bc7c-4dec-9701-87c99059613e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Etc\Math\Random">
+      <UniqueIdentifier>{7a2be591-11fa-4c22-a1d2-26ece9808afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Manager\GameManager">
+      <UniqueIdentifier>{370cc676-d4fb-4825-ae6f-a830032a7457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\02_CutScene">
+      <UniqueIdentifier>{35ec3abc-b457-4685-82ec-8140e95ed50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\02_CutScene\Opening">
+      <UniqueIdentifier>{252ffce9-2a82-4bfe-a3f2-290cc4708568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\CutSceneObject">
+      <UniqueIdentifier>{bd5ea62c-080d-407d-9a56-6ae19cf970c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\CutSceneObject\Opening">
+      <UniqueIdentifier>{47f86ced-9063-4641-b794-60846bc0abe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\02_CutScene\Normal">
+      <UniqueIdentifier>{33ed016d-1361-4cb2-9e5d-2c202176811b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\02_CutScene\Bad">
+      <UniqueIdentifier>{e894dfe7-d873-400a-af0d-6335affdaa9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\02_CutScene\True">
+      <UniqueIdentifier>{4d8755be-a9ff-4d4e-86f6-67bd741e44dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\CutSceneObject\Normal">
+      <UniqueIdentifier>{d9897ae8-d1f9-43c7-9ee4-ff50e3758d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\CutSceneObject\Bad">
+      <UniqueIdentifier>{9ec086ce-1c6b-4674-ac36-92a83107e5b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Object\CutSceneObject\True">
+      <UniqueIdentifier>{991f8bd2-fd26-4c0f-bae4-67caff284afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\SnakePlanet">
+      <UniqueIdentifier>{478b38a3-9cba-40e4-9c1b-e620d29c3804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_Scene\StoryPlanet">
+      <UniqueIdentifier>{47dbe109-be73-4736-a499-ad963434488a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SuperNova.rc" />
+  </ItemGroup>
+</Project>
